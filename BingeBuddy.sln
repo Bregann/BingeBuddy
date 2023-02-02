@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33205.214
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BingeBuddy", "BingeBuddy\BingeBuddy.csproj", "{78753DB3-9FA2-4DEF-B7A4-56C4EC243978}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BingeBuddy.Api", "BingeBuddy\BingeBuddy.Api.csproj", "{78753DB3-9FA2-4DEF-B7A4-56C4EC243978}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BingeBuddy.Domain", "BingeBuddy.Domain\BingeBuddy.Domain.csproj", "{CA32C209-D9E2-4551-A39D-817373BFC024}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BingeBuddy.Infrastructure", "BingeBuddy.Infrastructure\BingeBuddy.Infrastructure.csproj", "{73532186-AFE4-40CE-889B-554F4E1B57D8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{78753DB3-9FA2-4DEF-B7A4-56C4EC243978}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{78753DB3-9FA2-4DEF-B7A4-56C4EC243978}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{78753DB3-9FA2-4DEF-B7A4-56C4EC243978}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA32C209-D9E2-4551-A39D-817373BFC024}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA32C209-D9E2-4551-A39D-817373BFC024}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA32C209-D9E2-4551-A39D-817373BFC024}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA32C209-D9E2-4551-A39D-817373BFC024}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73532186-AFE4-40CE-889B-554F4E1B57D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73532186-AFE4-40CE-889B-554F4E1B57D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73532186-AFE4-40CE-889B-554F4E1B57D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73532186-AFE4-40CE-889B-554F4E1B57D8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
